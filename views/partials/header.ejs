@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>pinterest clone</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  </head>
+  <body>
+
+    <% if(nav === true) { %>
+      <div class="w-full h-[50px] px-10 py-2 flex items-center justify-between">
+        <img class="w-[100px] h-[50px] object-cover" src="/images/uploads/pinterestlogo.png" alt="">
+         <div class="flex gap-10 items-center justify-between">
+            <a href="/profile" class="font-semibold">Profile</a>
+            <a href="/feed" class="font-semibold">Feed</a>
+            <a href="/logout" class="text-red-700 font-semibold">Logout</a>
+         </div>
+      </div>
+
+      <% } %>
+    

@@ -1,0 +1,25 @@
+
+<%- include('partials/header') %>
+
+<div class="w-full h-screen bg-cover bg-center bg-[url('/images/bg.jpeg')] flex items-center justify-center">
+    <div class="w-[25vw] h-auto px-10 py-5 bg-zinc-100 rounded-[30px]">
+          <h1 class="leading-none tracking-tighter text-2xl text-center font-semibold text-zinc-700">Create An Account</h1>
+          <form action="/register" method="post" class="mt-5">
+            <input class="block w-full px-3 py-2 mt-2 outline-0 border-2 rounded-md" type="text" name="username" placeholder="username">
+            <input class="block w-full px-3 py-2 mt-2 outline-0 border-2 rounded-md" type="text" name="name" placeholder="fullname">
+            <input class="block w-full px-3 py-2 mt-2 outline-0 border-2 rounded-md" type="email" name="email" placeholder="email">
+            <input class="block w-full px-3 py-2 mt-2 outline-0 border-2 rounded-md" type="number" name="contact">
+            <input class="block w-full px-3 py-2 mt-2 outline-0 border-2 rounded-md" type="password" name="password" placeholder="password">
+            <input class="block w-full px-3 py-2 mt-3 bg-red-600 text-white rounded-full cursor-pointer outline-0 border-0" type="submit" value="Create Account">
+            <a href="" class="inline-block mt-5 font-semibold text-zinc-700 text-center">Forgot Password?</a>
+            <p class="text-xs font-semibold mt-3 text-center px-5">Discover and save ideas for your projects and interests. Create boards, follow others, and explore a world of inspiration. Enjoy pinning!</p>
+            <span class="text-sm mt-5 inline-block ml-[60px]">Have an account?</span><a href="/" class="ml-2 font-semibold text-sm">Log In</a>
+          </form>
+
+         
+    </div>
+</div>
+
+<%- include('partials/footer') %>
+
+ 
